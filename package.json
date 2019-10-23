@@ -1,0 +1,24 @@
+{
+  "name": "lodash_clone_with_TDD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naamoonoo/lodash_clone_with_TDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naamoonoo/lodash_clone_with_TDD/issues"
+  },
+  "homepage": "https://github.com/naamoonoo/lodash_clone_with_TDD#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.4"
+  }
+}
