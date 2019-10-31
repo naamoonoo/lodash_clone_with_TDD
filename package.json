@@ -18,7 +18,16 @@
   },
   "homepage": "https://github.com/naamoonoo/lodash_clone_with_TDD#readme",
   "devDependencies": {
+    "@types/jest": "^24.0.21",
     "jest": "^24.9.0",
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "babel-jest": "^24.9.0"
   }
 }
