@@ -1,5 +1,6 @@
-import chunk from "../array/chunk"
-// const chunk = require("../array/chunk")
+// import chunk from "../array/chunk"
+const { chunk } = require("../array/chunk")
+console.log(chunk)
 // const chunk = (arr, n) => {
 // 	const res = []
 
