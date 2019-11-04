@@ -1,20 +1,12 @@
 "use strict";
-// const chunk = (arr, n) => {
-// 	const res = []
-Object.defineProperty(exports, "__esModule", { value: true });
-// 	for (i = 0; i < arr.length / n; i++) {
-// 		res.push(arr.slice(i * n, (i + 1) * n))
-// 	}
-// 	return res
-// }
-const chunk = (arr, n) => {
-    const res = [];
-    for (let i = 0; i < arr.length / n; i++) {
-        res.push(arr.slice(i * n, (i + 1) * n));
+exports.__esModule = true;
+exports.chunk = function (array, size) {
+    var res = [];
+    for (var i = 0; i < array.length; i += size) {
+        res.push(array.slice(i, i + size));
     }
+    // console.log(res);
     return res;
 };
-exports.default = chunk;
-// console.log(chunk(["a", "b", "c", "d"], 2))
-// console.log(chunk(["a", "b", "c", "d"], 3))
-// chunk(["a", "b", "c", "d"], 3)
+// chunk([1,2,3,4], 3);
+//
