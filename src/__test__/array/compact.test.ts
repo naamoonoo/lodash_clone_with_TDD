@@ -3,15 +3,15 @@ import _ from "lodash"
 
 describe(`Creates an array with all falsey values removed.
 	The values false, null, 0, "", undefined, and NaN are falsey.`, () => {
-	test("[error input] when input array is undefined", () => {
+	test("[input error] when input array is undefined", () => {
 		expect(compact(undefined)).toEqual(_.compact(undefined))
 	})
 
-	test("[error input] when input array is empty", () => {
+	test("[input error] when input array is empty", () => {
 		expect(compact([])).toEqual(_.compact([]))
 	})
 
-	test("[error input] when input array is null", () => {
+	test("[input error] when input array is null", () => {
 		expect(compact(null)).toEqual(_.compact(null))
 	})
 

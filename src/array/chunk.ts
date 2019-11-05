@@ -10,4 +10,5 @@ export const chunk = (array: any[], size: number): any[][] => {
 	}
 
 	return res
+	// indexing vs push, pop(array method)
 }
