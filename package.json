@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -19,10 +20,10 @@
   "homepage": "https://github.com/naamoonoo/lodash_clone_with_TDD#readme",
   "devDependencies": {
     "@types/jest": "^24.0.21",
+    "@types/lodash": "^4.14.144",
+    "@types/node": "^12.12.5",
     "jest": "^24.9.0",
     "ts-jest": "^24.1.0",
-    "tslint": "^6.0.0-beta0",
-    "tslint-config-airbnb": "^5.11.2",
     "typescript": "^3.6.4"
   },
   "jest": {
@@ -39,5 +40,6 @@
         "enableTsDiagnostics": true
       }
     }
-  }
+  },
+  "dependencies": {}
 }

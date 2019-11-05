@@ -1,13 +1,13 @@
-export const chunk = (array: any[], size: number) : any => {
-	const res:any[][] = []
+export const chunk = (array: any[], size: number): any[][] => {
+	const res: any[][] = []
 
-	for (let i:number = 0; i < array.length; i += size){
-		res.push(array.slice(i, i +size))
+	if (!array || size < 1) {
+		return res
 	}
 
-	// console.log(res);
+	for (let i: number = 0; i < array.length; i += size) {
+		res.push(array.slice(i, i + size))
+	}
+
 	return res
 }
-
-// chunk([1,2,3,4], 3);
-//
