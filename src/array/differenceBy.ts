@@ -1,6 +1,6 @@
 import _ from "../.internal";
 
-export const differenceBy = (differenceBy(array, [values], [iteratee=_.identity]): any[] => {
+export const differenceBy(array : any[], [values], [iteratee=_.identity]): any[] => {
 	if (!array) {
 		return [];
 	}
